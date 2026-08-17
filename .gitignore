@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+data/raw/*
+!data/raw/.gitkeep
+models/*
+!models/.gitkeep
+.env
