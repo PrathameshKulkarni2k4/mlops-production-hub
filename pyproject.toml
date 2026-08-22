@@ -12,9 +12,15 @@ dependencies = [
 ]
 
 [tool.ruff]
-line-length = 88
+line-length = 120
 target-version = "py310"
+exclude = [
+    "config/jupyter_lab_config.py",
+]
+
+[tool.ruff.lint]
+select=["E", "F", "W", "I"]
 
 [tool.black]
-line-length = 88
+line-length = 120
 target-version = ['py310']
